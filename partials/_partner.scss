@@ -1,0 +1,58 @@
+.partner {
+  background-color: #e9f8f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  gap: 1.5rem;
+  padding-bottom: 1rem;
+  @media (max-width: 921px) {
+    flex-direction: column;
+    gap: 0.9rem;
+  }
+  .partner1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    .Here {
+      background-color: #00a082;
+      text-align: center;
+      border-radius: 1.5rem;
+      width: 55%;
+      color: white;
+      padding: 0.6rem;
+    }
+  }
+  .partner2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+    .Here {
+      background-color: #00a082;
+      text-align: center;
+      border-radius: 1.5rem;
+      width: 55%;
+      color: white;
+      padding: 0.6rem;
+    }
+  }
+  .partner3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+    .Here {
+      background-color: #00a082;
+      text-align: center;
+      border-radius: 1.5rem;
+      width: 55%;
+      color: white;
+      padding: 0.6rem;
+    }
+  }
+}
