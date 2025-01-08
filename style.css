@@ -166,7 +166,7 @@ nav .glovo1 .bx-chevron-down {
 }
 @media (max-width: 779px) {
   .Explore .category {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 .Explore .category .categorya {
@@ -283,7 +283,7 @@ nav .glovo1 .bx-chevron-down {
     flex-direction: column;
     gap: 0.9rem;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 0.5rem;
   }
 }
