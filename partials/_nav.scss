@@ -1,0 +1,44 @@
+nav {
+  background-color: #ffc244;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0rem;
+  .glovo {
+    .glov {
+      width: 150px;
+      object-fit: contain;
+      @media (max-width: 503px) {
+        width: 100px;
+      }
+    }
+  }
+  .glovo1 {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 2rem;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    .name {
+      @media (max-width: 607px) {
+        display: none;
+      }
+    }
+    .bx-user {
+      font-size: 1.5rem;
+      @media (max-width: 503px) {
+        font-size: 1rem;
+      }
+    }
+    .bx-chevron-down {
+      font-size: 1.5rem;
+    }
+    @media (max-width: 503px) {
+      font-size: 1rem;
+    }
+  }
+}
